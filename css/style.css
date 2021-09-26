@@ -1,4 +1,5 @@
 body {
+    position: relative;
     width: 1440px;
     height: 900px;
     background-color: #121725;
@@ -14,6 +15,73 @@ main {
     height: 56px;
     left: 165px;
     top: 102px;
+}
+
+.box {
+    position: absolute;
+    width: 1275px;
+    height: 640px;
+    left: 165px;
+    top: 130px;
+    background: #121725;
+}
+
+.content-box {
+    position: absolute;
+    width: 723px;
+    height: 509px;
+    left: 165px;
+    top: 261px;
+}
+
+.content {
+    font-family: 'Chivo', sans-serif;
+    position: absolute;
+    width: 665px;
+    height: 421px;
+    left: 165px;
+    top: 349px;
+}
+
+.tittle {
+    position: absolute;
+    width: 665px;
+    height: 124px;
+    left: 165px;
+    top: 349px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 62px;
+    /* or 119% */
+    text-transform: uppercase;
+    color: #54E6AF;
+}
+
+.tittle-secondary {
+    color: white;
+}
+
+.description {
+    position: absolute;
+    width: 445px;
+    height: 84px;
+    left: 165px;
+    top: 497px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #C2CBE5;
+}
+
+.img-host {
+    position: absolute;
+    width: 888px;
+    height: 640px;
+    left: 552px;
+    top: 130px;
 }
 
 .dots {
