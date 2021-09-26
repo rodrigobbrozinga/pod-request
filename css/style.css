@@ -1,0 +1,25 @@
+body {
+    width: 1440px;
+    height: 900px;
+    background-color: #121725;
+}
+
+main {
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    width: 134.85px;
+    height: 56px;
+    left: 165px;
+    top: 102px;
+}
+
+.dots {
+    position: absolute;
+    width: 232px;
+    height: 104px;
+    left: 1208px;
+    top: 718px;
+}
