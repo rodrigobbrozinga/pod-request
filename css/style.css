@@ -43,7 +43,7 @@ main {
     background: #121725;
     position: absolute;
     width: 50vw;
-    height: 509px;
+    height: 80%;
     left: 0;
     bottom: 0;
     z-index: 1;
@@ -51,22 +51,21 @@ main {
 
 .content {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-family: 'Chivo', sans-serif;
-    width: 665px;
-    height: 421px;
+    width: 90%;
+    height: 80%;
     bottom: 0;
 }
 
 .tittle {
-    width: 665px;
-    height: 124px;
-    left: 165px;
-    top: 349px;
+    width: 100%;
     font-style: normal;
     font-weight: normal;
     font-size: 52px;
-    line-height: 62px;
-    /* or 119% */
+    line-height: 119%;
     text-transform: uppercase;
     color: #54E6AF;
 }
@@ -76,10 +75,8 @@ main {
 }
 
 .description {
-    width: 445px;
+    width: 70%;
     height: 84px;
-    left: 165px;
-    top: 497px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -88,20 +85,14 @@ main {
     color: #C2CBE5;
 }
 
-.form {
-    width: 427px;
+.form-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
     height: 56px;
-    left: 165px;
-    top: 621px;
     background: #2C344B;
     border-radius: 28px;
-}
-
-.form-access {
-    width: 427px;
-    height: 56px;
-    left: 165px;
-    top: 621px;
 }
 
 .email {
@@ -120,14 +111,12 @@ main {
     color: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.5;
-}
-
-input::placeholder {
-    color: #FFFFFF;
+    margin-left: 7%;
 }
 
 .btn-access {
-    height: 90%;
+    margin-right: 1%;
+    height: 85%;
     background: #54E6AF;
     box-shadow: 0px 2px 4px rgba(84, 230, 175, 0.14);
     border-radius: 28px;
@@ -135,7 +124,14 @@ input::placeholder {
     font-weight: bold;
     font-family: Chivo;
     border: none;
+    padding: 0 7%;
 }
+
+input::placeholder {
+    color: #FFFFFF;
+}
+
+
 
 .platforms {
     width: 536px;
