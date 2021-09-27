@@ -76,6 +76,33 @@ main {
     color: #C2CBE5;
 }
 
+.form {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #2C344B;
+    border-radius: 28px;
+}
+
+.form-acess {
+    position: absolute;
+    width: 427px;
+    height: 56px;
+    left: 165px;
+    top: 621px;
+}
+
+.platforms {
+    position: absolute;
+    width: 536px;
+    height: 29px;
+    left: 165px;
+    top: 741px;
+}
+
 .img-host {
     position: absolute;
     width: 888px;
