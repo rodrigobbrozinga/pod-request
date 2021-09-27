@@ -1,7 +1,4 @@
 body {
-    position: relative;
-    width: 1440px;
-    height: 900px;
     background-color: #121725;
 }
 
@@ -10,41 +7,56 @@ main {
 }
 
 .logo {
-    position: absolute;
     width: 134.85px;
     height: 56px;
-    left: 165px;
-    top: 102px;
+    margin: 5vw 0 0 10vw;
+}
+
+.dots {
+    position: relative;
+    width: 232px;
+    height: 104px;
+    margin: 0 0 5% 0;
 }
 
 .box {
-    position: absolute;
+    position: relative;
     width: 1275px;
     height: 640px;
-    left: 165px;
-    top: 130px;
+    right: 0vw;
+    left: 10vw;
+    bottom: 5vw;
     background: #121725;
 }
 
+.img-host {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
 .content-box {
+    background: #121725;
     position: absolute;
     width: 723px;
     height: 509px;
-    left: 165px;
-    top: 261px;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
 }
 
 .content {
-    font-family: 'Chivo', sans-serif;
     position: absolute;
+    font-family: 'Chivo', sans-serif;
     width: 665px;
     height: 421px;
-    left: 165px;
-    top: 349px;
+    bottom: 0;
 }
 
 .tittle {
-    position: absolute;
     width: 665px;
     height: 124px;
     left: 165px;
@@ -63,7 +75,6 @@ main {
 }
 
 .description {
-    position: absolute;
     width: 445px;
     height: 84px;
     left: 165px;
@@ -77,44 +88,57 @@ main {
 }
 
 .form {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    
+    width: 427px;
+    height: 56px;
+    left: 165px;
+    top: 621px;
     background: #2C344B;
     border-radius: 28px;
 }
 
-.form-acess {
-    position: absolute;
+.form-access {
     width: 427px;
     height: 56px;
     left: 165px;
     top: 621px;
 }
 
+.email {
+    height: 28px;
+    left: 7.49%;
+    right: 70.26%;
+    top: calc(50% - 28px/2);
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    background: #2C344B;
+    border: none;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+input::placeholder {
+    color: #FFFFFF;
+}
+
+.btn-access {
+    height: 90%;
+    background: #54E6AF;
+    box-shadow: 0px 2px 4px rgba(84, 230, 175, 0.14);
+    border-radius: 28px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Chivo;
+    border: none;
+}
+
 .platforms {
-    position: absolute;
     width: 536px;
     height: 29px;
     left: 165px;
     top: 741px;
-}
-
-.img-host {
-    position: absolute;
-    width: 888px;
-    height: 640px;
-    left: 552px;
-    top: 130px;
-}
-
-.dots {
-    position: absolute;
-    width: 232px;
-    height: 104px;
-    left: 1208px;
-    top: 718px;
 }
