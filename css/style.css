@@ -9,24 +9,25 @@ main {
 .logo {
     width: 134.85px;
     height: 56px;
-    margin: 5vw 0 0 10vw;
+    position: absolute;
+    left: 10vw;
+    top: 12vh;
 }
 
 .dots {
-    position: relative;
     width: 232px;
     height: 104px;
-    margin: 0 0 5% 0;
+    position: absolute;
+    right: 0;
+    bottom: 4vh;
 }
 
 .box {
-    position: relative;
-    width: 1275px;
-    height: 640px;
-    right: 0vw;
+    position: absolute;
+    width: 90vw;
+    height: 75vh;
     left: 10vw;
-    bottom: 5vw;
-    background: #121725;
+    top: 15vh;
 }
 
 .img-host {
@@ -41,7 +42,7 @@ main {
 .content-box {
     background: #121725;
     position: absolute;
-    width: 723px;
+    width: 50vw;
     height: 509px;
     left: 0;
     bottom: 0;
