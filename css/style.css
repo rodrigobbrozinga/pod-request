@@ -7,67 +7,67 @@ main {
 }
 
 .logo {
-    width: 134.85px;
     height: 56px;
-    position: absolute;
     left: 10vw;
+    position: absolute;
     top: 12vh;
+    width: 134.85px;
 }
 
 .dots {
-    width: 232px;
+    bottom: 4vh;
     height: 104px;
     position: absolute;
     right: 0;
-    bottom: 4vh;
+    width: 232px;
 }
 
 .box {
-    position: absolute;
-    width: 90vw;
     height: 75vh;
     left: 10vw;
+    position: absolute;
     top: 15vh;
+    width: 90vw;
 }
 
 .img-host {
-    position: absolute;
-    width: 70%;
     height: 100%;
-    top: 0;
+    position: absolute;
     right: 0;
+    top: 0;
+    width: 70%;
     z-index: 0;
 }
 
 .content-box {
     background: #121725;
-    position: absolute;
-    width: 50vw;
+    bottom: 0;
     height: 80%;
     left: 0;
-    bottom: 0;
+    position: absolute;
+    width: 50vw;
     z-index: 1;
 }
 
 .content {
-    position: absolute;
+    bottom: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     font-family: 'Chivo', sans-serif;
-    width: 90%;
     height: 80%;
-    bottom: 0;
+    justify-content: space-between;
+    position: absolute;
+    width: 90%;
 }
 
 .tittle {
-    width: 100%;
+    color: #54E6AF;
+    font-size: 3vw;
     font-style: normal;
     font-weight: normal;
-    font-size: 52px;
-    line-height: 119%;
+    margin-top: 0;
     text-transform: uppercase;
-    color: #54E6AF;
+    width: 100%;
 }
 
 .tittle-secondary {
@@ -75,67 +75,62 @@ main {
 }
 
 .description {
-    width: 70%;
-    height: 84px;
+    color: #C2CBE5;
+    margin-top: 0;
+    font-size: 1.3vw;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-    /* or 156% */
-    color: #C2CBE5;
+    width: 70%;
 }
 
 .form-box {
-    display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 65%;
-    height: 56px;
     background: #2C344B;
     border-radius: 28px;
+    display: flex;
+    height: 15%;
+    justify-content: space-between;
+    margin-bottom: 8%;
+    width: 31vw;
 }
 
 .email {
-    height: 28px;
-    left: 7.49%;
-    right: 70.26%;
-    top: calc(50% - 28px/2);
-    font-family: Chivo;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 28px;
-    /* identical to box height, or 200% */
     background: #2C344B;
     border: none;
     color: #FFFFFF;
+    font-family: Chivo;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: normal;
+    left: 7.49%;
+    margin-left: 7%;
     mix-blend-mode: normal;
     opacity: 0.5;
-    margin-left: 7%;
+    right: 70.26%;
+    top: calc(50% - 28px/2);
 }
 
 .btn-access {
+    background: rgb(84, 230, 175);
+    border: none;
+    border-radius: 28px;
+    box-shadow: rgb(84 230 175 / 14%) 0px 2px 4px;
+    font-family: Chivo;
+    font-size: 1vw;
+    font-weight: bold;
     margin-right: 1%;
     height: 85%;
-    background: #54E6AF;
-    box-shadow: 0px 2px 4px rgba(84, 230, 175, 0.14);
-    border-radius: 28px;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: Chivo;
-    border: none;
-    padding: 0 7%;
+    padding: 0 5%;
 }
 
 input::placeholder {
     color: #FFFFFF;
 }
 
-
-
 .platforms {
-    width: 536px;
-    height: 29px;
-    left: 165px;
-    top: 741px;
+    align-items: center;
+    display: flex;
+    height: 2rem;
+    justify-content: space-between;
+    width: 80%;
 }
