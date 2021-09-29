@@ -7,7 +7,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
+  <!-- <link rel="stylesheet" href="./css/style.css"> -->
+  <link rel="stylesheet" href="./css/responsive.css">
 
   <title>Frontend Mentor | Pod request access landing page</title>
 </head>
@@ -16,36 +17,33 @@
   <main>
     <img src="./assets/desktop/logo.svg" alt="Logo" class="logo">
     <section class="box">
-      <div class="content-box">
-        <div class="content">
-          <h1 class="tittle">
-            Publish your podcasts <span class="tittle-secondary">everywhere.</span>
-          </h1>
+      <article class="text">
+        <h1 class="tittle">
+          Publish your podcasts <span class="tittle-secondary">everywhere.</span>
+        </h1>
 
-          <p class="description">
-            Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify,
-            Apple Podcasts, Google Podcasts, Pocket Casts and more!
-          </p>
+        <p class="description">
+          Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify,
+          Apple Podcasts, Google Podcasts, Pocket Casts and more!
+        </p>
+      </article>
 
-          <div class="form-height">
-            <form action="" class="form-box">
-              <input type="email" required placeholder="Email adress" class="email" id="email" onblur="validateEmail()"
-                onfocus="redefineMsg()">
-              <input type="submit" value="Request Access" class="btn-access">              
-            </form>
-            <span id="error-email" class="error-msg"></span>
-          </div>
-
-
-          <div class="platforms">
-            <img src="./assets/desktop/spotify.svg" alt="Spotify logo">
-            <img src="./assets/desktop/apple-podcast.svg" alt="Apple podcast logo">
-            <img src="./assets/desktop/google-podcasts.svg" alt="Google podcast logo">
-            <img src="./assets/desktop/pocket-casts.svg" alt="Pocket Casts logo">
-          </div>
-        </div>
+      <div class="platforms">
+        <img src="./assets/desktop/spotify.svg" alt="Spotify logo">
+        <img src="./assets/desktop/apple-podcast.svg" alt="Apple podcast logo">
+        <img src="./assets/desktop/google-podcasts.svg" alt="Google podcast logo">
+        <img src="./assets/desktop/pocket-casts.svg" alt="Pocket Casts logo">
       </div>
-      <img src="./assets/desktop/image-host.jpg" alt="Image of a man singing" class="img-host">
+
+      <div class="form">
+        <input type="email" required placeholder="Email adress" class="email" id="email" onblur="validateEmail()"
+          onfocus="redefineMsg()">
+        <input type="submit" value="Request Access" class="btn-access">
+        <span id="error-email" class="error-msg"></span>
+      </div>
+
+      <figure class="img-host">
+      </figure>
     </section>
     <img src="./assets/desktop/bg-pattern-dots.svg" alt="Image dots" class="dots">
   </main>

@@ -1,0 +1,41 @@
+body {
+    font-family: 'Chivo', sans-serif;
+    background-color: #121725;
+}
+
+@media screen and (min-width: 375px) {
+    .logo {
+        position: absolute;
+        width: 134.85px;
+        height: 56px;
+        left: 120px;
+        top: 62px;
+    }
+    .img-host {
+        background-image: url("../assets/mobile/image-host.jpg");
+        position: absolute;
+        width: 375px;
+        height: 667px;
+        left: 0px;
+        top: 0px;
+        mix-blend-mode: normal;
+        opacity: 0.1;
+    }
+}
+
+/* @media screen and (min-width: 768px) {
+    .logo {
+        position: absolute;
+        width: 134.85px;
+        height: 56px;
+        left: 39px;
+        top: 50px;
+    }
+    .img-host {
+        position: absolute;
+        width: 491px;
+        height: 767px;
+        left: 277px;
+        top: 0px;
+    }
+} */
