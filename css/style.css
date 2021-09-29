@@ -108,6 +108,11 @@ main {
     opacity: 0.5;
     right: 70.26%;
     top: calc(50% - 28px/2);
+    width: 80%;
+}
+
+textarea:focus, input:focus, select:focus {
+    outline: 0;
 }
 
 .btn-access {
@@ -121,6 +126,11 @@ main {
     margin-right: 1%;
     height: 85%;
     padding: 0 5%;
+}
+
+.btn-access:hover {
+    background-color: #B3FFE2;
+    cursor: pointer;
 }
 
 input::placeholder {
