@@ -90,7 +90,7 @@ main {
     display: flex;
     height: 15%;
     justify-content: space-between;
-    margin-bottom: 8%;
+    margin-bottom: 3vh;
     width: 31vw;
 }
 
