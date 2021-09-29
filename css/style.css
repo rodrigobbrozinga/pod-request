@@ -83,14 +83,17 @@ main {
     width: 70%;
 }
 
+.form-height {
+    height: 18%;
+}
+
 .form-box {
     align-items: center;
     background: #2C344B;
     border-radius: 28px;
     display: flex;
-    height: 15%;
+    height: 80%;
     justify-content: space-between;
-    margin-bottom: 3vh;
     width: 31vw;
 }
 
@@ -109,6 +112,13 @@ main {
     right: 70.26%;
     top: calc(50% - 28px/2);
     width: 80%;
+}
+
+.error-msg {
+    color: #FB3E3E;
+    font-size: 12px;
+    height: 20%;
+    padding-left: 5%;
 }
 
 textarea:focus, input:focus, select:focus {
@@ -143,4 +153,5 @@ input::placeholder {
     height: 2rem;
     justify-content: space-between;
     width: 80%;
+    margin-top: 5%;
 }

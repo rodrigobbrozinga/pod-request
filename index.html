@@ -27,10 +27,15 @@
             Apple Podcasts, Google Podcasts, Pocket Casts and more!
           </p>
 
+          <div class="form-height">
             <form action="" class="form-box">
-              <input type="email" required placeholder="Email adress" class="email">
-              <input type="submit" value="Request Access" class="btn-access">
+              <input type="email" required placeholder="Email adress" class="email" id="email" onblur="validateEmail()"
+                onfocus="redefineMsg()">
+              <input type="submit" value="Request Access" class="btn-access">              
             </form>
+            <span id="error-email" class="error-msg"></span>
+          </div>
+
 
           <div class="platforms">
             <img src="./assets/desktop/spotify.svg" alt="Spotify logo">
@@ -44,6 +49,7 @@
     </section>
     <img src="./assets/desktop/bg-pattern-dots.svg" alt="Image dots" class="dots">
   </main>
+  <script src="main.js"></script>
 </body>
 
 </html>
